@@ -10,17 +10,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace WpfHome
 {
     /// <summary>
-    /// Logica di interazione per RegisterPage.xaml
+    /// Logica di interazione per LoginWindow.xaml
     /// </summary>
-    public partial class RegisterPage : Page
+    public partial class LoginWindow : Window
     {
-        public RegisterPage()
+        public LoginWindow()
         {
             InitializeComponent();
         }
