@@ -23,5 +23,18 @@ namespace WpfHome
         {
             InitializeComponent();
         }
+
+        private void btnAdvances_Click(object sender, RoutedEventArgs e)
+        {
+
+            this.Hide();
+            LoginWindow LW = new LoginWindow();
+            LW.Show();
+        }
+
+        private void btnInsert_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

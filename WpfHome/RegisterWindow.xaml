@@ -30,8 +30,8 @@
                 <TextBox x:Name="txtMail" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Height="50" Width="170" />
                 <TextBox x:Name="txtUsername" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Height="50" Width="170" />
                 <PasswordBox x:Name="txtPassword" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Height="50" Width="170" />
-                <Button x:Name="btnInsert" Content="Inserisci" Grid.Column="0" Grid.Row="6" Height="60" Width="70" FontSize="18"/>
-                <Button x:Name="btnAdvances" Content="Avanti" Grid.Column="2" Grid.Row="6" Height="60" Width="70" FontSize="18"/>
+                <Button x:Name="btnInsert" Content="Inserisci" Grid.Column="0" Grid.Row="6" Height="60" Width="70" FontSize="18" Click="btnInsert_Click"/>
+                <Button x:Name="btnAdvances" Content="Avanti" Grid.Column="2" Grid.Row="6" Height="60" Width="70" FontSize="18" Click="btnAdvances_Click"/>
                 <Label Content="NOME" Grid.Row="1" Grid.Column="2"  FontSize="15" VerticalAlignment="Center"/>
                 <Label Content="COGNOME" Grid.Row="2" Grid.Column="2" FontSize="15" VerticalAlignment="Center"/>
                 <Label Content="E-MAIL" Grid.Row="3" Grid.Column="2" FontSize="15" VerticalAlignment="Center"/>

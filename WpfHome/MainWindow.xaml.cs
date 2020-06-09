@@ -24,5 +24,19 @@ namespace WpfHome
         {
             InitializeComponent();
         }
+
+        private void btnRegister_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            RegisterWindow RW = new RegisterWindow();
+            RW.Show();
+        }
+
+        private void btnLogin_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            LoginWindow LW = new LoginWindow();
+            LW.Show();
+        }
     }
 }
